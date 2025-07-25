@@ -2,12 +2,11 @@
 
 import { useState } from "react"
 import { Menu, X, Moon, Sun } from "lucide-react"
-import { useTheme } from "../../../context/use-theme"  // Importa tu hook
+import { useTheme } from "../../../context/use-theme"
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  // Obtén tema y toggleTheme del contexto global
   const { theme, toggleTheme } = useTheme()
 
   const navItems = [
@@ -18,7 +17,6 @@ const Header = () => {
     { href: "#contacto", label: "Contacto" },
   ]
 
-  // Clases condicionales según tema global
   const headerBgClass = theme === "light" ? "bg-white border-gray-200" : "bg-gray-900 border-gray-700"
   const headerTextClass = theme === "light" ? "text-gray-900" : "text-white"
   const headerHoverClass = "hover:text-blue-600"
@@ -32,7 +30,7 @@ const Header = () => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <h1 className={`text-2xl font-bold ${theme === "light" ? "text-gray-900" : "text-blue-500"}`}>
+            <h1 className={`text-2xl font-bold text-blue-500`}>
               A <span className={`${headerTextClass}`}>Z </span>Z
             </h1>
           </div>
