@@ -3,6 +3,7 @@
 import { Github, Linkedin, Mail, Download, Code, Terminal, Braces, GitBranch } from "lucide-react"
 import { useTheme } from "../../../context/use-theme"
 import fotoPerfil from "../img/Foto_Ing.Alexis.jpeg"
+import cvAzz from "../doc/CV_AlexisZambranoZambrano.pdf"
 
 export function Hero() {
     const { theme } = useTheme()
@@ -106,37 +107,34 @@ export function Hero() {
                             </p>
                         </div>
                         <div className="flex flex-wrap gap-4 items-center">
-                            <button
+                            <a
+                                href="mailto:zambra873@gmail.com"
                                 className={`cursor-pointer inline-flex items-center px-6 py-3 rounded-lg font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900 shadow-lg hover:shadow-xl transform hover:scale-105 ${btnPrimaryBg} ${btnPrimaryText}`}
                             >
                                 <Mail className="mr-2 h-4 w-4" />
                                 Contáctame
-                            </button>
-                            <button
-                                className={`cursor-pointer inline-flex items-center px-6 py-3 rounded-lg font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900 border hover:scale-105 ${btnSecondaryBorder} ${btnSecondaryText}`}
-                            >
-                                <Download className="mr-2 h-4 w-4" />
-                                Descargar CV
-                            </button>
+                            </a>
+                            <a href={cvAzz} download>
+                                <button
+                                    className={`cursor-pointer inline-flex items-center px-6 py-3 rounded-lg font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900 border hover:scale-105 ${btnSecondaryBorder} ${btnSecondaryText}`}
+                                >
+                                    <Download className="mr-2 h-4 w-4" />
+                                    Descargar CV
+                                </button>
+                            </a>
                         </div>
                         <div className="flex space-x-6">
                             <a
-                                href="#"
+                                href="https://github.com/AlexisZambranoZ"
                                 className={`transition-all duration-300 hover:text-blue-600 dark:hover:text-blue-400 transform hover:scale-110 ${textSecondary}`}
                             >
                                 <Github className="h-6 w-6" />
                             </a>
                             <a
-                                href="#"
+                                href="www.linkedin.com/in/alexis-zambrano-zambrano-21816a257"
                                 className={`transition-all duration-300 hover:text-blue-600 dark:hover:text-blue-400 transform hover:scale-110 ${textSecondary}`}
                             >
                                 <Linkedin className="h-6 w-6" />
-                            </a>
-                            <a
-                                href="#"
-                                className={`transition-all duration-300 hover:text-blue-600 dark:hover:text-blue-400 transform hover:scale-110 ${textSecondary}`}
-                            >
-                                <Mail className="h-6 w-6" />
                             </a>
                         </div>
                     </div>

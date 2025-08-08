@@ -9,28 +9,13 @@ import ts from "../img/ts.png";
 import vue from "../img/vue.png";
 import boots from "../img/bstp.png";
 import taildwind from "../img/taildwind.png";
-import rxjs from "../img/rxjs.png";
 import net from "../img/net_core.png";
 import node from "../img/node.png";
 import mysql from "../img/mysql.png";
 import csharp from "../img/Csharp_Logo.png";
-import figma from "../img/Figma.png"
-import gitHub from "../img/GitHub.png"
-import nest from "../img/Nest.js.png"
-import nextJs from "../img/Next.js.png"
-import astro from "../img/Astro.png"
 import gitLab from "../img/GitLab.png"
-import postCSS from "../img/PostCSS.png"
-import swagger from "../img/Swagger.png"
-import vscode from "../img/Visual Studio Code.png"
-import visualStudio from "../img/Visual Studio.png"
 import dbeaver from "../img/DBeaver.png"
-import vuetify from "../img/Veutify.png"
-import vite from "../img/Vite.js.png"
-import slack from "../img/Slack.png"
 import jira from "../img/Jira.png"
-import postman from "../img/postman.png"
-import mongo from "../img/MongoDB.png"
 
 
 export function Skills() {
@@ -40,39 +25,23 @@ export function Skills() {
         { name: "Angular", icon: <img src={angular} alt="Angular" className="w-8 h-8" />, color: "text-red-600" },
         { name: "Bootstrap CSS", icon: <img src={boots} alt="Bootstrap CSS" className="w-8 h-8" />, color: "text-teal-500" },
         { name: "JavaScript", icon: <img src={js} alt="JavaScript" className="w-8 h-8" />, color: "text-yellow-500" },
-        { name: "RxJS", icon: <img src={rxjs} alt="RxJS" className="w-8 h-8" />, color: "text-purple-600" },
         { name: "React", icon: <img src={react} alt="React" className="w-8 h-8" />, color: "text-cyan-500" },
         { name: "Tailwind CSS", icon: <img src={taildwind} alt="Tailwind CSS" className="w-8 h-8" />, color: "text-teal-500" },
         { name: "TypeScript", icon: <img src={ts} alt="TypeScript" className="w-8 h-8" />, color: "text-blue-600" },
         { name: "Vue.js", icon: <img src={vue} alt="Vue.js" className="w-8 h-8" />, color: "text-green-500" },
-        { name: "Vuetify", icon: <img src={vuetify} alt="Vuetify" className="w-8 h-8" />, color: "text-blue-800" },
-        { name: "Vite.js", icon: <img src={vite} alt="Vite.js" className="w-8 h-8" />, color: "text-purple-500" },
     ];
 
     const backendTechnologies = [
         { name: ".NET", icon: <img src={net} alt=".NET" className="w-8 h-8" />, color: "text-purple-700" },
-        { name: "Express", icon: "⚡", color: "text-gray-600" },
         { name: "MySQL", icon: <img src={mysql} alt="MySQL" className="w-8 h-8" />, color: "text-orange-600" },
         { name: "Node.js", icon: <img src={node} alt="Node.js" className="w-8 h-8" />, color: "text-green-600" },
         { name: "C#", icon: <img src={csharp} alt="C#" className="w-8 h-8" />, color: "text-green-500" },
-        { name: "Mongo DB", icon: <img src={mongo} alt="C#" className="w-8 h-8" />, color: "text-green-500" },
     ];
 
     const tools = [
-        { name: "Figma", icon: <img src={figma} alt="Figma" className="w-8 h-8" />, color: "text-pink-500" },
-        { name: "GitHub", icon: <img src={gitHub} alt="GitHub" className="w-8 h-8" />, color: "text-gray-800" },
         { name: "GitLab", icon: <img src={gitLab} alt="GitLab" className="w-8 h-8" />, color: "text-orange-600" },
-        { name: "Nest.js", icon: <img src={nest} alt="Nest.js" className="w-8 h-8" />, color: "text-red-700" },
-        { name: "Next.js", icon: <img src={nextJs} alt="Next.js" className="w-8 h-8" />, color: "text-black" },
-        { name: "Astro", icon: <img src={astro} alt="Astro" className="w-8 h-8" />, color: "text-orange-400" },
-        { name: "PostCSS", icon: <img src={postCSS} alt="PostCSS" className="w-8 h-8" />, color: "text-blue-500" },
-        { name: "Swagger", icon: <img src={swagger} alt="Swagger" className="w-8 h-8" />, color: "text-green-500" },
-        { name: "Visual Studio Code", icon: <img src={vscode} alt="VS Code" className="w-8 h-8" />, color: "text-blue-700" },
-        { name: "Visual Studio", icon: <img src={visualStudio} alt="Visual Studio" className="w-8 h-8" />, color: "text-purple-700" },
         { name: "DBeaver", icon: <img src={dbeaver} alt="DBeaver" className="w-8 h-8" />, color: "text-blue-600" },
-        { name: "Slack", icon: <img src={slack} alt="Slack" className="w-8 h-8" />, color: "text-pink-600" },
         { name: "Jira", icon: <img src={jira} alt="Jira" className="w-8 h-8" />, color: "text-blue-500" },
-        { name: "Postman", icon: <img src={postman} alt="Postman" className="w-8 h-8" />, color: "text-orange-500" },
     ];
 
 

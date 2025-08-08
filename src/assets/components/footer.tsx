@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Heart } from "lucide-react"
+import { Github, Linkedin, Mail } from "lucide-react"
 
 export function Footer() {
     const currentYear = new Date().getFullYear()
@@ -9,10 +9,9 @@ export function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {/* Información personal */}
                     <div>
-                        <h3 className="text-xl font-bold mb-4">Tu Nombre</h3>
+                        <h3 className="text-xl font-bold mb-4">Ing. Alexis Zambrano</h3>
                         <p className="text-gray-400 dark:text-gray-500 mb-4 transition-colors duration-300">
-                            Desarrollador Full Stack apasionado por crear experiencias digitales excepcionales y soluciones
-                            innovadoras.
+                            Desarrollador en crecimiento con dos años de experiencia construyendo aplicaciones web con Angular y .NET Core. Apasionado por aprender, mejorar continuamente y crear soluciones que aporten valor.
                         </p>
                         <div className="flex space-x-4">
                             <a
@@ -90,11 +89,11 @@ export function Footer() {
                     <div>
                         <h3 className="text-lg font-semibold mb-4">Servicios</h3>
                         <ul className="space-y-2 text-gray-400 dark:text-gray-500 transition-colors duration-300">
-                            <li>Desarrollo Web</li>
-                            <li>Aplicaciones Móviles</li>
-                            <li>Diseño UI/UX</li>
-                            <li>Consultoría Técnica</li>
+                            <li>Desarrollo web</li>
+                            <li>Aplicaciones de escritorio</li>
+                            <li>Consultoría técnica</li>
                             <li>Mantenimiento</li>
+                            <li>Diseño UI/UX</li>
                         </ul>
                     </div>
                 </div>
@@ -102,10 +101,7 @@ export function Footer() {
                 <div className="border-t border-gray-800 dark:border-gray-700 mt-8 pt-8 transition-colors duration-300">
                     <div className="flex flex-col md:flex-row justify-between items-center">
                         <p className="text-gray-400 dark:text-gray-500 text-sm transition-colors duration-300">
-                            © {currentYear} Tu Nombre. Todos los derechos reservados.
-                        </p>
-                        <p className="text-gray-400 dark:text-gray-500 text-sm flex items-center mt-4 md:mt-0 transition-colors duration-300">
-                            Hecho con <Heart className="h-4 w-4 text-red-500 mx-1" /> y mucho café
+                            © {currentYear} Alexis Zambrano Zambrano. Todos los derechos reservados.
                         </p>
                     </div>
                 </div>

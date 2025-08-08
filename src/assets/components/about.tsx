@@ -89,8 +89,8 @@ export function About() {
         },
         {
             icon: Palette,
-            title: "Diseño UI/UX",
-            description: "Creación de interfaces intuitivas y atractivas",
+            title: "Diseño Web",
+            description: "Convicción por transformar ideas en interfaces intuitivas y visualmente atractivas.",
         },
         {
             icon: Zap,
